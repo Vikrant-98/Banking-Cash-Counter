@@ -22,7 +22,7 @@ namespace Banking_Cash_Counter
             {
                 accountNumber = rand.Next();
                 accountNumber = (accountNumber % 90000) + 10000 ;               //5 Digit Random Account Number  
-                myQueue.Enqueue(accountNumber);
+                myQueue.Enqueue(accountNumber);                                 //Enqueue the user(random account number)
                 balance[i] = rand.Next();
                 balance[i] = balance[i] % 10000;
             }
@@ -35,14 +35,14 @@ namespace Banking_Cash_Counter
             {
                 Console.WriteLine($"User: {myQueue.Peek()}");
                 Operation();
-                myQueue.Dequeue();
+                myQueue.Dequeue();                                              //Dequeue when user is done
                 index++;
             }
         }
-        public void Withdraw()
+        public void Withdraw()                                                  //Withdraw the amount
         {
             Console.WriteLine("Enter amount want to withdraw :");
-            int amount = int.Parse(Console.ReadLine());
+            int amount = int.Parse(Console.ReadLine());                         //Validate Withdraw amount is correct or not
             if (balance[index] - amount > 0)
             {
                 balance[index] = balance[index] - amount;
@@ -53,11 +53,11 @@ namespace Banking_Cash_Counter
                 Console.WriteLine("You can't withdraw " + amount + " amount\nYour balance is :"+balance[index]);
             }
         }
-        public void Deposit()
+        public void Deposit()                                                   //Deposit the Amount
         {
             Console.WriteLine("Enter amount want to deposit :");
             int amount = int.Parse(Console.ReadLine());
-            if (amount > 0)
+            if (amount > 0)                                                     //Validate Deposit amount is correct or not
             {
                 balance[index] = balance[index] + amount;
             }
@@ -69,7 +69,7 @@ namespace Banking_Cash_Counter
         public void Operation()
         {
             int choice1 = 0;
-            while (choice1 == 0)
+            while (choice1 == 0)                                                                //Condition for repeat the transaction
             {
                 Console.WriteLine("Your balance is "+ balance[index]);
                 Console.WriteLine("1).For Withdraw\n2).For Deposit");
@@ -77,16 +77,16 @@ namespace Banking_Cash_Counter
                 switch (choice)
                 {
                     case 1:
-                        Withdraw();
+                        Withdraw();                                                           //Withdraw
                         break;
                     case 2:
-                        Deposit();
+                        Deposit();                                                            //Deposit
                         break;
                     default:
                         Console.WriteLine("No match found");
                         break;
                 }
-                Console.WriteLine("Press 0 For continue your transaction or any number to exit:");
+                Console.WriteLine("Press 0 For continue your transaction or any number to exit:");      //Ask for to repeat or not 
                 choice1 = int.Parse(Console.ReadLine());
             }
         }
