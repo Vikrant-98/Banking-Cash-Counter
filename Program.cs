@@ -36,7 +36,7 @@ namespace Banking_Cash_Counter
                 Console.WriteLine($"User: {myQueue.Peek()}");
                 Operation();
                 myQueue.Dequeue();                                              //Dequeue when user is done
-                index++;
+                index++;                                                        //Increment for Balance of next user
             }
         }
         public void Withdraw()                                                  //Withdraw the amount
