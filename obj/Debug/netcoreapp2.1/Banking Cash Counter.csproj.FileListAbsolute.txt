@@ -1,0 +1,11 @@
+C:\Users\The Daddy\source\repos\Banking Cash Counter\Banking Cash Counter\bin\Debug\netcoreapp2.1\Banking Cash Counter.deps.json
+C:\Users\The Daddy\source\repos\Banking Cash Counter\Banking Cash Counter\bin\Debug\netcoreapp2.1\Banking Cash Counter.runtimeconfig.json
+C:\Users\The Daddy\source\repos\Banking Cash Counter\Banking Cash Counter\bin\Debug\netcoreapp2.1\Banking Cash Counter.runtimeconfig.dev.json
+C:\Users\The Daddy\source\repos\Banking Cash Counter\Banking Cash Counter\bin\Debug\netcoreapp2.1\Banking Cash Counter.dll
+C:\Users\The Daddy\source\repos\Banking Cash Counter\Banking Cash Counter\bin\Debug\netcoreapp2.1\Banking Cash Counter.pdb
+C:\Users\The Daddy\source\repos\Banking Cash Counter\Banking Cash Counter\obj\Debug\netcoreapp2.1\Banking Cash Counter.csprojAssemblyReference.cache
+C:\Users\The Daddy\source\repos\Banking Cash Counter\Banking Cash Counter\obj\Debug\netcoreapp2.1\Banking Cash Counter.csproj.CoreCompileInputs.cache
+C:\Users\The Daddy\source\repos\Banking Cash Counter\Banking Cash Counter\obj\Debug\netcoreapp2.1\Banking Cash Counter.AssemblyInfoInputs.cache
+C:\Users\The Daddy\source\repos\Banking Cash Counter\Banking Cash Counter\obj\Debug\netcoreapp2.1\Banking Cash Counter.AssemblyInfo.cs
+C:\Users\The Daddy\source\repos\Banking Cash Counter\Banking Cash Counter\obj\Debug\netcoreapp2.1\Banking Cash Counter.dll
+C:\Users\The Daddy\source\repos\Banking Cash Counter\Banking Cash Counter\obj\Debug\netcoreapp2.1\Banking Cash Counter.pdb
