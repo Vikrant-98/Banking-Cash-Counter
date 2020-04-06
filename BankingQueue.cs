@@ -3,7 +3,7 @@ using System.Collections;
 
 namespace Banking_Cash_Counter
 {
-    class Program
+    class BankingQueue
     {
         public int accountNumber;
         public int index = 0;
@@ -11,9 +11,10 @@ namespace Banking_Cash_Counter
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome To Banking Cash Counter");
-            Program obj = new Program();
+            BankingQueue obj = new BankingQueue();
             obj.Counter();
         }
+        
         public void Counter()
         {
             Random rand = new Random();
